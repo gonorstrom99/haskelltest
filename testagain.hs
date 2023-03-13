@@ -1,0 +1,1 @@
+take 10 (filter even [43..])
