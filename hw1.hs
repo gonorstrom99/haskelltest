@@ -31,3 +31,4 @@ type Peg = String
 type Move = (Peg, Peg)
 hanoi :: Integer -> Peg -> Peg -> Peg -> [Move]
 hanoi x p1 p2 p3 = [("a","b")]
+hej x = x
