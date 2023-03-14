@@ -24,6 +24,10 @@ sumDigits x = if length x == 1 then sumOfNum (x !! 0)
 validate :: Integer -> Bool
 validate x = if mod (sumDigits (doubleEveryOther (toDigits x))) 10 ==0 then True
             else False
-
 --homework 1, part 2
 --tower of hanoi
+
+type Peg = String
+type Move = (Peg, Peg)
+hanoi :: Integer -> Peg -> Peg -> Peg -> [Move]
+hanoi x p1 p2 p3 = [("a","b")]
